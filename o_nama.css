@@ -1,0 +1,602 @@
+@font-face {
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family: opensans;
+}
+
+html,body{
+    margin: 0;
+    font-family: opensans;
+    height: 100%;
+}
+
+.home{
+
+    width: 100%;
+    min-height: 100%;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+.page-selector{
+    display: block;
+}
+
+.simic-logo{
+    margin-right: 1.3%;
+}
+
+.page-link{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    opacity: 62%;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    text-align: justify;
+    background-color: white;
+    justify-content: center;
+
+    opacity: 0.7;
+    height: 7%;
+}
+
+.miniinfo{
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+   
+}
+
+.infoimage{
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.infopar{
+    opacity: 70%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.staffimage{
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+}
+
+.staffmainparagraph{
+    text-align: inherit;
+    width: 45%;
+    margin-top: 1%;
+}
+
+.upoznajtenastimtitle{
+    color: rgba(58, 185, 187, 1);
+    font-weight: 400;
+}
+
+.onamatitle{
+    color: rgba(0, 0, 0, 0.47);
+}
+
+.specialtitle{
+    color: rgba(0, 0, 0, 0.47);
+}
+
+.stafflowerbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stafflowerbodytitle{
+    color: rgba(58, 185, 187, 1);
+    font-weight: 300;
+}
+
+.staffmember{
+    background-image: url("/slike/5.png");
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+
+.staffmember2{
+    background-image: url("/slike/2-copy.png");
+    background-size: contain;
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    object-fit: cover;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+.staffmember3{
+    background-image: url("/slike/3-copy.png");
+   
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+.staffmember4{
+    background-image: url("/slike/4-copy.png");
+    
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+.staffmember5{
+    background-image: url("/slike/5-copy.png");
+    
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+.staffmember6{
+    background-image: url("/slike/6-copy.png");
+   
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    margin: 5px;
+    border-top-right-radius: 26%;
+}
+.staffmember7{
+    background-image: url("/slike/7-copy.png");
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+.staffmember8{
+    background-image: url("/slike/8-copy.png");
+
+    background-position: center;
+    width: 212px;   
+    height: 212px;
+    transition: .4s ease;
+    position: relative;
+    border-top-right-radius: 26%;
+    margin: 5px;
+}
+
+.workerrow{
+    display: flex;
+}
+.workerrow2{
+    display: flex;
+}
+.workers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.staffname{
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    bottom: 5%;
+    position: absolute;
+    transition: .4s ease;
+    font-size: 0.8vw;
+}
+
+.staffmember:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+   
+}
+
+.staffmember2:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember3:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember4:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember5:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember6:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember7:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+.staffmember8:hover .staffname{
+    opacity: 0;
+    margin-bottom: 0;
+   /* margin-top: 65%; 
+   transition: .4s ease;
+   margin-bottom: 0%; */
+   margin: 0;
+}
+
+
+ .staffinfooo{
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    font-weight: 500;
+    opacity: 0;
+    transition: .4s ease;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+}
+.staffinfooo3{
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    font-weight: 500;
+    opacity: 0;
+    transition: .4s ease;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    font-size: 0.67vw;
+}
+
+.staffinfooo7{
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    font-weight: 500;
+    opacity: 0;
+    transition: .4s ease;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    font-size: 0.65vw;}
+
+.staffinfooo8{
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    font-weight: 500;
+    opacity: 0;
+    transition: .4s ease;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    font-size: 0.65vw;}
+
+.staffmember:hover .staffinfooo{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+
+.staffmember2:hover .staffinfooo{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember3:hover .staffinfooo3{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember4:hover .staffinfooo{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember5:hover .staffinfooo{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember6:hover .staffinfooo{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember7:hover .staffinfooo7{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+.staffmember8:hover .staffinfooo8{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 26%;
+    display: flex;
+    align-items: center;
+    transition: .4s ease;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(58, 185, 187, 1), rgba(37, 153, 219, 1));
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+        margin-right: 5px;
+        }
+        .hamburger .active .bars:nth-child(2){
+            opacity: 0;
+        }
+        .hamburger .active .bars:nth-child(1){
+            transform: translateY(8px) rotate(45deg);
+        }
+        .hamburger .active .bars:nth-child(0){
+            transform: translateY(-8px) rotate(45deg);
+        }
+        .bars{
+            display: block;
+            width: 1.5rem;
+        height: 0.25rem;
+        background-color: rgba(37, 153, 219, 1);
+        margin: 5px 0;
+    
+            
+        }
+    
+       .bar .page-selector{
+            display: none;
+           flex-direction: column;
+           margin-right: 15%;
+        font-size: 3vw;
+        }
+    
+        .page-link{
+            color: black;
+            margin: 10px;
+        }
+        .bar{
+            font-size: 80%;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        .simic-logo{
+            width: 25%;
+        }
+    .info{
+        font-size: 1%;
+       
+        margin: 3px;
+    }
+    .infoimage{
+        width: 10%;
+        margin: 0;
+        padding-right: 5%;
+    }
+    .miniinfo{
+        margin: 0%;
+    }
+    .infopar{
+        width: 100%;
+        font-size: 2vw;
+        margin: 0;
+        text-align:left;
+        text-decoration: none;
+    }
+
+    .main-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .staffimage{
+        width: 60%;
+    margin-top: 5%;
+    margin-right: 3%;
+    width: 70%;
+    }
+
+    .staffmainparagraph{
+        width: 100%;
+        font-size: 3.5vw;
+        display: flex;
+    flex-direction: column;
+    }
+    
+    .staffmember{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember2{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember3{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember4{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember5{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember6{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember7{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffmember8{
+        background-size: contain;
+        width: 140px;
+        height: 140px;
+        font-size: 3.5vw;
+    }
+    .staffname{
+        font-size: 2.55vw;
+    }
+
+    .staffinfooo3{
+        font-size: 2.2vw;
+    }
+    .staffinfooo7{
+        font-size: 2.2vw;
+    }
+    .staffinfooo8{
+        font-size: 2.2vw;
+    }
+
+    .workerrow{
+        column-gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .workerrow2{
+        column-gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .staffinfooo{
+        font-size: 3.1vw;
+    }
+
+    .footer p{
+        font-size: 3vw;
+        margin: 2%;
+    }
+}

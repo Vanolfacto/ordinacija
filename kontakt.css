@@ -1,0 +1,227 @@
+@font-face {
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family: opensans;
+}
+
+html,body{
+    margin: 0;
+    font-family: opensans;
+    height: 100%;
+}
+
+.home{
+
+    width: 100%;
+    min-height: 100%;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    width: 100%;
+}
+.page-selector{
+    display: block;
+}
+
+.simic-logo{
+    margin-right: 1.3%;
+}
+
+.page-link{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    opacity: 62%;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    text-align: justify;
+    background-color: white;
+    justify-content: center;
+
+    opacity: 0.7;
+    height: 7%;
+}
+
+.miniinfo{
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+   
+}
+
+.infoimage{
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.infopar{
+    opacity: 70%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.kontaktbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.kontaktbody h2{
+    margin-bottom: 0.5%;
+    color: rgba(58, 185, 187, 1);
+    font-weight: 400;
+}
+
+.kontaktbody h4{
+    margin-top: 0;
+    margin-bottom: 1.5%;
+    color: rgba(0, 0, 0, 0.47);
+    font-weight: 400;
+}
+
+.textinput{
+    width: 40%;
+    padding: 0.7%;
+    margin-bottom: 1%;
+    background-color: rgba(217, 217, 217, 0.53);
+    border: none;
+    font-size: 90%;
+}
+
+.textareainput{
+    width: 40%;
+    padding: 0.7%;
+    background-color: rgba(217, 217, 217, 0.53);
+    border: none;
+    font-size: 90%;
+    font-family: opensans;
+}
+
+.kontaktbutton{
+    background-color: rgba(58, 185, 187, 1);
+    border: none;
+    padding: 0.7%;
+    padding-left: 1.5%;
+    padding-right: 1.5%; 
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    transition: 0.5s ease;
+}
+
+.kontaktbutton:hover{
+    background-color: rgb(42, 155, 157);
+    color: rgb(213, 213, 213);
+}
+
+.textareainput::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.textinput::-webkit-input-placeholder{
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.map{
+    width: 100%;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(58, 185, 187, 1), rgba(37, 153, 219, 1));
+    color: white;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+
+@media only screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+        margin-right: 5px;
+        }
+        .hamburger .active .bars:nth-child(2){
+            opacity: 0;
+        }
+        .hamburger .active .bars:nth-child(1){
+            transform: translateY(8px) rotate(45deg);
+        }
+        .hamburger .active .bars:nth-child(0){
+            transform: translateY(-8px) rotate(45deg);
+        }
+        .bars{
+            display: block;
+            width: 1.5rem;
+        height: 0.25rem;
+        background-color: rgba(37, 153, 219, 1);
+        margin: 5px 0;
+    
+            
+        }
+    
+       .bar .page-selector{
+            display: none;
+           flex-direction: column;
+           margin-right: 15%;
+        font-size: 3vw;
+        }
+    
+        .page-link{
+            color: black;
+            margin: 10px;
+        }
+        .bar{
+            font-size: 80%;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        .simic-logo{
+            width: 25%;
+        }
+        .info{
+            font-size: 1%;
+           
+            margin: 3px;
+        }
+        .infoimage{
+            width: 10%;
+            margin: 0;
+            padding-right: 5%;
+        }
+        .miniinfo{
+            margin: 0%;
+        }
+        .infopar{
+            width: 100%;
+            font-size: 2vw;
+            margin: 0;
+            text-align:left;
+            text-decoration: none;
+        }
+
+    .textinput{
+        width: 70%;
+    }
+
+    .textareainput{
+        width: 70%;
+    }
+
+    .map{
+        width: 100%;
+        
+    }
+    .footer p{
+        font-size: 3vw;
+        margin: 2%;
+    }
+}
